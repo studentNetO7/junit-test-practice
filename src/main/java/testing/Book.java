@@ -27,4 +27,5 @@ public class Book {
         int prise = (int) Math.floor((pages * 3) * Math.sqrt(author.rating));
         return Math.max(prise, 250);
     }
+
 }
